@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HODLINFO</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+   <!-- //navbar -->
+   <nav class="navbar">
+    <div class="navbar-left">
+      <h1 class="navbar-title">HODLINFO</h1>
+    </div>
+    <div class="navbar-middle">
+      <div class="navbar-dropdown">
+        <button class="navbar-dropdown-button">INR 
+          <i class='bx bx-chevron-down'></i>
+        </button>
+        <div class="navbar-dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="navbar-dropdown">
+        <button class="navbar-dropdown-button">BTC
+          <i class='bx bx-chevron-down'></i>
+        </button>
+        <div class="navbar-dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <button class="navbar-dropdown-button button">BUY BTC</button>
+    </div>
+    <div class="navbar-right">
+      <div class="navbar-timer">
+        <span class="navbar-timer-text">57</span>
+      </div>
+      <button class="navbar-button  ">
+        <i class='bx bxl-telegram' ></i>
+        Connect on Telegram
+      </button>
+      <button class="navbar-icon-button"><i class="fa fa-telegram"></i></button>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+      
+    </div>
+  </nav>
+  
+  <!-- <!-navbar finish-  -->
+
+  <!-- section  -->
+  <div class="section">
+    <div class="section__column section__column--first">
+      <div class="section__text--percentage section__text--bold">0.1%</div>
+      <div class="section__text--time">5 Mins</div>
+    </div>
+    <div class="section__column">
+      <div class="section__text--percentage section__text--bold">0.96%</div>
+      <div class="section__text--time">1 Hour</div>
+    </div>
+    <div class="section__column section__column--third">
+      <div class="section__text--best ">Best Price to Trade</div>
+      <div class="section__text--price">
+        <i class='bx bx-rupee' ></i>
+        62,56,110</div>
+      <div class="section__text--average">Average BTC/INS not pricing including commission</div>
+    </div>
+    <div class="section__column">
+      <div class="section__text--percentage section__text--bold">2.73%</div>
+      <div class="section__text--time">1 Day</div>
+    </div>
+    <div class="section__column">
+      <div class="section__text--percentage section__text--bold">7.51%</div>
+      <div class="section__text--time">7 Days</div>
+    </div>
+  </div>
+  
+  <!-- section  -->
+
+    <div id="coins-container">
+      <div class="coins-row coins-header">
+        <div class="coins-cell">#</div>
+        <div class="coins-cell">Platform</div>
+        <div class="coins-cell">Last Traded Price</div>
+        <div class="coins-cell">Buy/Sell Price</div>
+        <div class="coins-cell">Difference</div>
+        <div class="coins-cell">Savings</div>
+      </div>
+      <div id="coins-body"></div>
+    </div>
+<script src="script.js"></script>
+  </body>
+</html>
