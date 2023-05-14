@@ -1,5 +1,5 @@
 // Fetch data from Express server and populate the table
-fetch('http://localhost:3000/coins')
+fetch('https://quadb-tech-task.vercel.app/coins')
   .then(response => response.json())
   .then(coins => {
     console.log(coins);
